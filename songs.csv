@@ -136,36 +136,65 @@ album_id,name,score
 10,R.I.P.,8.5
 10,XNXX,8.0
 10,I'LL SEE YOU IN 40,7.8
-11,Ew,8.0
-11,MODUS,7.8
-11,Tick Tock,7.6
-11,Daylight,9.6
-11,Upgrade,8.2
-11,Gimme Love,8.0
-11,Run,8.3
-11,Sanctuary,8.8
-11,High Hopes,7.5
-11,NITROUS,7.9
-11,Pretty Boy,8.0
-11,Normal People,7.9
-11,Afterthought,8.3
-11,Mr. Hollywood,7.8
-11,777,8.5
-11,Reanimator,7.4
-11,Like You Do,9.0
-11,Your Man,8.7
-12,Circles,9.6
-12,Complicated,8.5
-12,Blue World,9.8
-12,Good News,10.0
-12,I Can See,8.5
-12,Everybody,8.6
-12,Woods,9.2
-12,Hand Me Downs,9.2
-12,That's On Me,8.5
-12,Hands,8.4
-12,Surf,9.5
-12,Once A Day,9.4
+11,The Explanation,7
+11,Jocelyn Flores,9.4
+11,Depression & Obsession,8.8
+11,Everybody Dies In Their Nightmares,9.6
+11,Revenge,8.8
+11,Save Me,8.7
+11,Dead Inside (Interlude),8.5
+11,Fuck Love,9.4
+11,Carry On,9.2
+11,Orlando,8.8
+11,Ayala (Outro),9
+12,Ew,8.0
+12,MODUS,7.8
+12,Tick Tock,7.6
+12,Daylight,9.6
+12,Upgrade,8.2
+12,Gimme Love,8.0
+12,Run,8.3
+12,Sanctuary,8.8
+12,High Hopes,7.5
+12,NITROUS,7.9
+12,Pretty Boy,8.0
+12,Normal People,7.9
+12,Afterthought,8.3
+12,Mr. Hollywood,7.8
+12,777,8.5
+12,Reanimator,7.4
+12,Like You Do,9.0
+12,Your Man,8.7
+13,Circles,9.6
+13,Complicated,8.5
+13,Blue World,9.8
+13,Good News,10.0
+13,I Can See,8.5
+13,Everybody,8.6
+13,Woods,9.2
+13,Hand Me Downs,9.2
+13,That's On Me,8.5
+13,Hands,8.4
+13,Surf,9.5
+13,Once A Day,9.4
+14,Kickin' Incredibly Dope Shit (Intro),8.2
+14,Outside,7.8
+14,Get Em Up,8.1
+14,Nikes on My Feet,8.5
+14,Senior Skip Day,8.7
+14,The Spins,9.8
+14,Don't Mind If I Do,8.6
+14,Paper Route,7.8
+14,Good Evening,7.8
+14,Ride Around,7.3
+14,Knock Knock,9.0
+14,"Mad Flava, Heavy Flow (Interlude)",3.0
+14,Kool Aid & Frozen Pizza,8.7
+14,All I Want Is You,7.8
+14,Poppy,8.4
+14,Face In The Crowd,7.8
+14,Ayye,9.4
+14,Back In The Day,8.5
 15,HIGHEST IN THE ROOM REMIX,8.4
 15,JACKBOYS,5.0
 15,GANG GANG,8.7
@@ -201,17 +230,19 @@ album_id,name,score
 17,Hope,9.2
 17,schizophrenia,6.7
 17,before I close my eyes,9.3
-20,IGOR'S THEME,7.4
-20,EARFQUAKE,9.6
-20,I THINK,9.0
-20,EXACTLY WHAT YOU RUN FROM,6.0
-20,RUNNING OUT OF TIME,8.4
-20,NEW MAGIC WAND,9.1
-20,A BOY IS A GUN*,9.0
-20,PUPPET,8.5
-20,WHAT'S GOOD,8.3
-20,"GONE, GONE / THANK YOU",9.3
-20,I DON'T LOVE YOU ANYMORE,7.9
+18,Red Desert,7.8
+18,No Shame,8.0
+18,Old Me,8.2
+18,Easier,8.6
+18,Teeth,8.4
+18,Wildflower,8.0
+18,Best Years,8.3
+18,Not In The Same Way,7.9
+18,Lover Of Mine,7.7
+18,Thin White Lies,7.8
+18,Lonely Heart,7.5
+18,High,8.4
+18,Kill My Time,7.8
 19,Come Back to Earth,9.6
 19,Hurt Feelings,8.7
 19,What's the Use?,8.9
@@ -225,6 +256,28 @@ album_id,name,score
 19,Jet Fuel,8.8
 19,2009,10.0
 19,So It Goes,8.8
+20,IGOR'S THEME,7.4
+20,EARFQUAKE,9.6
+20,I THINK,9.0
+20,EXACTLY WHAT YOU RUN FROM,6.0
+20,RUNNING OUT OF TIME,8.4
+20,NEW MAGIC WAND,9.1
+20,A BOY IS A GUN*,9.0
+20,PUPPET,8.5
+20,WHAT'S GOOD,8.3
+20,"GONE, GONE / THANK YOU",9.3
+20,I DON'T LOVE YOU ANYMORE,7.9
+21,Welcome,4.0
+21,IGHT IMMA HEAD OUT,6.7
+21,Black Air Force Energy,8.2
+21,Same Sponge Different Day,7.5
+21,The Formula,6.8
+21,Please Don't Save Her,7.6
+21,Dark Sea,7.3
+21,Crazy Driving Skillz (Go SB!),6.3
+21,Don't Mess With Me (While I'm Jellyfishing),8.4
+21,Got A Lot Of Money,7.4
+21,Going Ghost,7.0
 22,Burn,8.7
 22,Already Dead,9.0
 22,Cigarettes,9.6
@@ -248,58 +301,6 @@ album_id,name,score
 22,My Life In A Nutshell,7.6
 22,Rich And Blind,9.5
 22,Legends,9.9
-21,Welcome,4.0
-21,IGHT IMMA HEAD OUT,6.7
-21,Black Air Force Energy,8.2
-21,Same Sponge Different Day,7.5
-21,The Formula,6.8
-21,Please Don't Save Her,7.6
-21,Dark Sea,7.3
-21,Crazy Driving Skillz (Go SB!),6.3
-21,Don't Mess With Me (While I'm Jellyfishing),8.4
-21,Got A Lot Of Money,7.4
-21,Going Ghost,7.0
-18,Red Desert,7.8
-18,No Shame,8.0
-18,Old Me,8.2
-18,Easier,8.6
-18,Teeth,8.4
-18,Wildflower,8.0
-18,Best Years,8.3
-18,Not In The Same Way,7.9
-18,Lover Of Mine,7.7
-18,Thin White Lies,7.8
-18,Lonely Heart,7.5
-18,High,8.4
-18,Kill My Time,7.8
-14,Kickin' Incredibly Dope Shit (Intro),8.2
-14,Outside,7.8
-14,Get Em Up,8.1
-14,Nikes on My Feet,8.5
-14,Senior Skip Day,8.7
-14,The Spins,9.8
-14,Don't Mind If I Do,8.6
-14,Paper Route,7.8
-14,Good Evening,7.8
-14,Ride Around,7.3
-14,Knock Knock,9.0
-14,"Mad Flava, Heavy Flow (Interlude)",3.0
-14,Kool Aid & Frozen Pizza,8.7
-14,All I Want Is You,7.8
-14,Poppy,8.4
-14,Face In The Crowd,7.8
-14,Ayye,9.4
-14,Back In The Day,8.5
-7,Don't Panic,8.4
-7,Shiver,8.3
-7,Spies,7.9
-7,Sparks,8.8
-7,Yellow,9.0
-7,Trouble,8.6
-7,Parachutes,5.8
-7,High Speed,7.5
-7,We Never Change,7.7
-7,Everything's Not Lost,7.6
 23,Intro,7.8
 23,All Girls Are The Same,9.7
 23,Lucid Dreams,9.8
@@ -444,49 +445,6 @@ album_id,name,score
 32,Chinatown,7.8
 32,Trials & Tribulations,6.8
 32,Wishing For A Hero,8.5
-39,Die Slow,6.8
-39,Stressed,8.5
-39,Stupid/Asking,7.0
-39,Recognize Real,7.4
-39,Contagious,7.6
-39,Peepin Out The Window,7.8
-39,Rich Nigga Shit,8.0
-39,Livin It Up,8.8
-39,Yea Yea Yea,6.9
-39,Insure My Wrist,7.6
-39,Scoliosis,7.2
-39,Bubbly,8.8
-39,Road Rage,6.8
-39,Faces,8.2
-39,Droppin Jewels,8.4
-39,Fifth Day Dead,7.5
-39,Icy Hot,7.8
-39,Love You More,9.0
-39,Hate The Game,8.2
-39,Day Before,9.7
-38,Empty,9.5
-38,Maze,9.2
-38,HeMotions,8.6
-38,Demonz,8.0
-38,Fast,9.3
-38,Hear Me Calling,9.2
-38,Big,8.2
-38,Robbery,9.9
-38,Flaws And Sins,8.5
-38,Feeling,8.8
-38,Bandit,9.7
-38,Syphilis,8.5
-38,Who Shot Cupid,8.3
-38,Ring Ring,8.5
-38,Desire,8.7
-38,Out My Way,7.8
-38,The Bees Knees,8.2
-38,ON GOD,7.9
-38,10 Feet,9.4
-38,Won't Let Go,8.0
-38,She's The One,7.0
-38,Rider,8.5
-38,Make Believe,9.0
 33,Message,7.5
 33,Really Redd,7.8
 33,Lost Me,8.5
@@ -504,38 +462,6 @@ album_id,name,score
 33,Let You Down,8.0
 33,No Option,8.2
 33,Lemonade,9.6
-40,Eraser,8.5
-40,Castle on the Hill,9.5
-40,FDive,8.8
-40,Shape of You,9.8
-40,Perfect,10.0
-40,Galway Girl,9.3
-40,Happier,9.7
-40,New Man,8.6
-40,Hearts Don't Break Around Here,8.8
-40,What Do I Know?,9.0
-40,How Would You Feel (Paean)?,8.7
-40,Supermarket Flowers,9.0
-40,Barcelona,8.8
-40,Bibia Be Ye Ye,8.6
-40,Nancy Mulligan,8.8
-40,Save Myself,8.7
-41,One,8.8
-41,I'm a Mess,9.0
-41,Sing,9.3
-41,Don't,9.6
-41,Nina,8.0
-41,Photograph,10.0
-41,Bloodstream,8.3
-41,Tenerife Sea,8.4
-41,Runaway,8.5
-41,The Man,8.2
-41,Thinking out Loud,9.7
-41,Afire Love,8.8
-41,Take It Back,8.4
-41,Shirtsleeves,8.7
-41,Even My Dad Does Sometimes,8.4
-41,I See Fire,8.5
 34,Leray,8.9
 34,Who needs Love,9.0
 34,Love Sick,8.4
@@ -557,17 +483,6 @@ album_id,name,score
 34,Chosen,7.8
 34,Abandoned,8.6
 34,Can You Rap Like Me - Pt. 2,8.4
-37,A Head Full of Dreams,9.0
-37,Birds,8.5
-37,Hymm for the Weekend,9.3
-37,Everglow,9.5
-37,Adventure of a Lifetime,9.4
-37,Fun,8.3
-37,Kaleidoscope,6.8
-37,Army of One,8.1
-37,Amazing Day,8.5
-37,Colour Spectrum,7.0
-37,Up&Up,9.0
 35,Donda Chant,2.0
 35,Jail,9.2
 35,God Breathed,6.0
@@ -604,6 +519,92 @@ album_id,name,score
 36,BLAHBLAHBLAH DEMO,8.5
 36,YUKON (INTERLUDE),8.9
 36,1AM FREESTYLE,8.0
+37,A Head Full of Dreams,9.0
+37,Birds,8.5
+37,Hymm for the Weekend,9.3
+37,Everglow,9.5
+37,Adventure of a Lifetime,9.4
+37,Fun,8.3
+37,Kaleidoscope,6.8
+37,Army of One,8.1
+37,Amazing Day,8.5
+37,Colour Spectrum,7.0
+37,Up&Up,9.0
+38,Empty,9.5
+38,Maze,9.2
+38,HeMotions,8.6
+38,Demonz,8.0
+38,Fast,9.3
+38,Hear Me Calling,9.2
+38,Big,8.2
+38,Robbery,9.9
+38,Flaws And Sins,8.5
+38,Feeling,8.8
+38,Bandit,9.7
+38,Syphilis,8.5
+38,Who Shot Cupid,8.3
+38,Ring Ring,8.5
+38,Desire,8.7
+38,Out My Way,7.8
+38,The Bees Knees,8.2
+38,ON GOD,7.9
+38,10 Feet,9.4
+38,Won't Let Go,8.0
+38,She's The One,7.0
+38,Rider,8.5
+38,Make Believe,9.0
+39,Die Slow,6.8
+39,Stressed,8.5
+39,Stupid/Asking,7.0
+39,Recognize Real,7.4
+39,Contagious,7.6
+39,Peepin Out The Window,7.8
+39,Rich Nigga Shit,8.0
+39,Livin It Up,8.8
+39,Yea Yea Yea,6.9
+39,Insure My Wrist,7.6
+39,Scoliosis,7.2
+39,Bubbly,8.8
+39,Road Rage,6.8
+39,Faces,8.2
+39,Droppin Jewels,8.4
+39,Fifth Day Dead,7.5
+39,Icy Hot,7.8
+39,Love You More,9.0
+39,Hate The Game,8.2
+39,Day Before,9.7
+40,Eraser,8.5
+40,Castle on the Hill,9.5
+40,FDive,8.8
+40,Shape of You,9.8
+40,Perfect,10.0
+40,Galway Girl,9.3
+40,Happier,9.7
+40,New Man,8.6
+40,Hearts Don't Break Around Here,8.8
+40,What Do I Know?,9.0
+40,How Would You Feel (Paean)?,8.7
+40,Supermarket Flowers,9.0
+40,Barcelona,8.8
+40,Bibia Be Ye Ye,8.6
+40,Nancy Mulligan,8.8
+40,Save Myself,8.7
+41,One,8.8
+41,I'm a Mess,9.0
+41,Sing,9.3
+41,Don't,9.6
+41,Nina,8.0
+41,Photograph,10.0
+41,Bloodstream,8.3
+41,Tenerife Sea,8.4
+41,Runaway,8.5
+41,The Man,8.2
+41,Thinking out Loud,9.7
+41,Afire Love,8.8
+41,Take It Back,8.4
+41,Shirtsleeves,8.7
+41,Even My Dad Does Sometimes,8.4
+41,I See Fire,8.5
 42,Rich Flex,9.3
 42,Major Distribution,8.5
 42,On BS,8.7
@@ -620,19 +621,6 @@ album_id,name,score
 42,More M's,8.5
 42,3AM on Glenwood,8.4
 42,I Guess It's Fuck Me,8.0
-49,Dark Fantasy,8.8
-49,Gorgeous,9.0
-49,POWER,9.9
-49,All Of The Lights (Interlude),8.0
-49,All Of The Lights,9.7
-49,Monster,9.2
-49,So Appaled,8.3
-49,Devil In A New Dress,9.8
-49,Runaway,9.5
-49,Hell Of A Life,7.8
-49,Blame Game,8.3
-49,Lost In The World,8.6
-49,Who Will Survive In America,8.0
 43,On Sight,8.7
 43,Black Skinhead,9.4
 43,I Am A God,7.8
@@ -660,31 +648,6 @@ album_id,name,score
 44,Pink matter,8.2
 44,Forrest Gump,8.7
 44,End,8.0
-50,Thug Till It's Over,9.5
-50,Turn it Up,7.8
-50,El Caballito,8.0
-50,Behold,8.2
-50,Stove Top,6.8
-50,Come On Baby,9.4
-50,Amsterdam 2009 Remix,8.4
-50,Back on my feet,7.6
-50,About you,8.6
-50,Notta Game,8.3
-57,a lot,9.8
-57,break da law,8.7
-57,a&t,8.2
-57,out for the night,8.4
-57,gun smoke,8.4
-57,1.5,8.8
-57,all my friends,9.3
-57,can't leave without it,9.5
-57,asmr,8.0
-57,ball w/o you,9.6
-57,good day,7.8
-57,pad lock,8.0
-57,monster,9.3
-57,letter 2 my momma,8.5
-57,4L,8.3
 45,Best Day Ever,9.2
 45,Get Up,8.4
 45,Donald Trump,9.5
@@ -701,17 +664,6 @@ album_id,name,score
 45,Snooze,8.3
 45,Keep Floatin',8.8
 45,BDE Bonus,9.6
-52,Memories,8.7
-52,Don't Say A Word,7.8
-52,Can You Take It,7.0
-52,Outside,7.5
-52,Can't Tell,8.2
-52,Somebody That You Don't Know,8.4
-52,Fight Club,8.0
-52,Rude,8.0
-52,Better Yet,7.7
-52,Wedding Cake,8.2
-52,I Believed It,9.6
 46,On Time,8.0
 46,Superhero (Heroes & Villians),9.4
 46,Too Many Nights,9.2
@@ -727,17 +679,6 @@ album_id,name,score
 46,Lock On Me,8.3
 46,Feel The Fiyaaaah,8.8
 46,All The Money,8.2
-51,Every Hour,7.8
-51,Selah,8.4
-51,Follow God,9.2
-51,Closed On Sunday,8.2
-51,On God,9.0
-51,Everything We Need,8.0
-51,Water,7.5
-51,God Is,7.8
-51,Hands On,7.4
-51,Use This Gospel,7.9
-51,Jesus Is Lord,6.0
 47,Good Morning,9.1
 47,Champion,9.0
 47,Stronger,9.8
@@ -764,6 +705,51 @@ album_id,name,score
 48,Hear Me Clearly,8.2
 48,Open Air,7.8
 48,I Pray For You,8.4
+49,Dark Fantasy,8.8
+49,Gorgeous,9.0
+49,POWER,9.9
+49,All Of The Lights (Interlude),8.0
+49,All Of The Lights,9.7
+49,Monster,9.2
+49,So Appaled,8.3
+49,Devil In A New Dress,9.8
+49,Runaway,9.5
+49,Hell Of A Life,7.8
+49,Blame Game,8.3
+49,Lost In The World,8.6
+49,Who Will Survive In America,8.0
+50,Thug Till It's Over,9.5
+50,Turn it Up,7.8
+50,El Caballito,8.0
+50,Behold,8.2
+50,Stove Top,6.8
+50,Come On Baby,9.4
+50,Amsterdam 2009 Remix,8.4
+50,Back on my feet,7.6
+50,About you,8.6
+50,Notta Game,8.3
+51,Every Hour,7.8
+51,Selah,8.4
+51,Follow God,9.2
+51,Closed On Sunday,8.2
+51,On God,9.0
+51,Everything We Need,8.0
+51,Water,7.5
+51,God Is,7.8
+51,Hands On,7.4
+51,Use This Gospel,7.9
+51,Jesus Is Lord,6.0
+52,Memories,8.7
+52,Don't Say A Word,7.8
+52,Can You Take It,7.0
+52,Outside,7.5
+52,Can't Tell,8.2
+52,Somebody That You Don't Know,8.4
+52,Fight Club,8.0
+52,Rude,8.0
+52,Better Yet,7.7
+52,Wedding Cake,8.2
+52,I Believed It,9.6
 53,MANSION MUSIK,7.6
 53,ATLANTIS,7.9
 53,PSYCHO,8.4
@@ -807,30 +793,6 @@ album_id,name,score
 54,All I Know,8.2
 54,Die For You,9.7
 54,I Feel It Coming,9.8
-59,In My Dreams (Cudder Anthem),8.3
-59,Soundtrack 2 My Life,9.4
-59,Simple As...,8.4
-59,Solo Dolo (Nightmare),8.6
-59,Heart Of A Lion (Kid Cudi Theme Music),7.8
-59,My World,8.1
-59,Day 'N' Nite (nightmare),9.7
-59,Sky Might Fall,8.7
-59,Enter Galactic (Love Connection Part I),8.7
-59,Alive (Nightmare),8.8
-59,Cudi Zone,9.5
-59,Make Her Say,9.4
-59,Pursuit Of Happiness (Nightmare),9.8
-59,Hyyerr,8.3
-59,Up Up & Away,9.5
-58,Meet the Woo,8.1
-58,Welcome To The Party,9.0
-58,Hawk Em,7.5
-58,Better Have Your Gun,7.6
-58,Scenario,8.4
-58,Dior,9.2
-58,Feeling,7.8
-58,PTSD,7.7
-58,Brother Man,8.0
 55,In Ha Mood,6.5
 55,Princess Diana,6.0
 55,Gangsta Boo,7.4
@@ -851,52 +813,45 @@ album_id,name,score
 56,sHouLd i B?,8.7
 56,The Alchemist.,8.6
 56,REACH THE SUNSHINE.,8.5
-61,HYAENA,8.8
-61,THANK GOD,8.7
-61,MODERN JAM,8.3
-61,MY EYES,9.5
-61,GOD'S COUNTRY,8.2
-61,SIRENS,8.4
-61,MELTDOWN,9.3
-61,FE!N,9.4
-61,DELRESTO (ECHOES),8.3
-61,I KNOW ?,8.5
-61,TOPIA TWINS,9.0
-61,CIRCUS MAXIMUS,8.8
-61,PARASAIL,8.4
-61,SKITZO,9.0
-61,LOST FOREVER,8.6
-61,LOOOVE,9.2
-61,K-POP,8.4
-61,TELEKINESIS,8.7
-61,TIL FURTHER NOTICE,8.5
-64,Foreword,8.4
-64,Where This Flower Blooms,9.0
-64,Sometimes...,7.8
-64,See You Again,9.5
-64,Who Dat Boy,9.3
-64,Pothole,8.6
-64,Garden Shed,8.4
-64,Boredom,9.6
-64,I Ain't Got Time!,8.7
-64,911 / Mr. Lonely,9.8
-64,Droppin' Seeds,8.0
-64,November,8.3
-64,Glitter,9.4
-64,"Enjoy Right Now, Today",8.0
-63,Annihilate,9.6
-63,Am I Dreaming,9.0
-63,All The Way Live,8.3
-63,Danger (Spider),8.5
-63,Hummingbird,7.0
-63,Calling,9.7
-63,Silk & Cologne,7.3
-63,Link Up,8.0
-63,Self Love,8.1
-63,Home,9.8
-63,Nonviolent Communication,7.8
-63,Givin' Up,9.3
-63,Nas Morales,8.6
+57,a lot,9.8
+57,break da law,8.7
+57,a&t,8.2
+57,out for the night,8.4
+57,gun smoke,8.4
+57,1.5,8.8
+57,all my friends,9.3
+57,can't leave without it,9.5
+57,asmr,8.0
+57,ball w/o you,9.6
+57,good day,7.8
+57,pad lock,8.0
+57,monster,9.3
+57,letter 2 my momma,8.5
+57,4L,8.3
+58,Meet the Woo,8.1
+58,Welcome To The Party,9.0
+58,Hawk Em,7.5
+58,Better Have Your Gun,7.6
+58,Scenario,8.4
+58,Dior,9.2
+58,Feeling,7.8
+58,PTSD,7.7
+58,Brother Man,8.0
+59,In My Dreams (Cudder Anthem),8.3
+59,Soundtrack 2 My Life,9.4
+59,Simple As...,8.4
+59,Solo Dolo (Nightmare),8.6
+59,Heart Of A Lion (Kid Cudi Theme Music),7.8
+59,My World,8.1
+59,Day 'N' Nite (nightmare),9.7
+59,Sky Might Fall,8.7
+59,Enter Galactic (Love Connection Part I),8.7
+59,Alive (Nightmare),8.8
+59,Cudi Zone,9.5
+59,Make Her Say,9.4
+59,Pursuit Of Happiness (Nightmare),9.8
+59,Hyyerr,8.3
+59,Up Up & Away,9.5
 60,Rockstar Made,8.4
 60,Go2DaMoon,8.5
 60,Stop Breathing,8.2
@@ -921,6 +876,52 @@ album_id,name,score
 60,Die4Guy,8.3
 60,Not PLaying,8.3
 60,F33l Lik3 Dyin,7.5
+61,HYAENA,8.8
+61,THANK GOD,8.7
+61,MODERN JAM,8.3
+61,MY EYES,9.5
+61,GOD'S COUNTRY,8.2
+61,SIRENS,8.4
+61,MELTDOWN,9.3
+61,FE!N,9.4
+61,DELRESTO (ECHOES),8.3
+61,I KNOW ?,8.5
+61,TOPIA TWINS,9.0
+61,CIRCUS MAXIMUS,8.8
+61,PARASAIL,8.4
+61,SKITZO,9.0
+61,LOST FOREVER,8.6
+61,LOOOVE,9.2
+61,K-POP,8.4
+61,TELEKINESIS,8.7
+61,TIL FURTHER NOTICE,8.5
+63,Annihilate,9.6
+63,Am I Dreaming,9.0
+63,All The Way Live,8.3
+63,Danger (Spider),8.5
+63,Hummingbird,7.0
+63,Calling,9.7
+63,Silk & Cologne,7.3
+63,Link Up,8.0
+63,Self Love,8.1
+63,Home,9.8
+63,Nonviolent Communication,7.8
+63,Givin' Up,9.3
+63,Nas Morales,8.6
+64,Foreword,8.4
+64,Where This Flower Blooms,9.0
+64,Sometimes...,7.8
+64,See You Again,9.5
+64,Who Dat Boy,9.3
+64,Pothole,8.6
+64,Garden Shed,8.4
+64,Boredom,9.6
+64,I Ain't Got Time!,8.7
+64,911 / Mr. Lonely,9.8
+64,Droppin' Seeds,8.0
+64,November,8.3
+64,Glitter,9.4
+64,"Enjoy Right Now, Today",8.0
 65,MOON MUSiC,8.7
 65,feelslikeimfallinginlove,9.0
 65,WE PRAY,7.8
@@ -931,15 +932,18 @@ album_id,name,score
 65,AETERNA,7.3
 65,ALL MY LOVE,8.4
 65,ONE WORLD,7.0
-70,Movin' Out (Anthony's Song),9.6
-70,The Stranger,8.7
-70,Just the Way You Are,9.4
-70,Scenes from an Italian Restaurant,9.7
-70,Vienna,10.0
-70,Only the Good Die Young,9.7
-70,She's Always a Women,10.0
-70,Get It Right the First Time,8.8
-70,Everybody Has a Dream,9.0
+66,wacced out murals,9.4
+66,squabble up,9.4
+66,luther,9.3
+66,man at the garden,8.8
+66,hey now,9.0
+66,reincarnated,9.6
+66,tv off,9.4
+66,dodger blue,8.7
+66,peekaboo,8.5
+66,heart pt. 6,9.5
+66,gnx,8.7
+66,gloria,9.2
 67,St. Chroma,9.0
 67,Rah Tah Tah,8.0
 67,Noid,8.8
@@ -954,18 +958,16 @@ album_id,name,score
 67,Like Him,8.8
 67,Dalloon,8.5
 67,I Hope You Find Your Way Home,8.8
-66,wacced out murals,9.4
-66,squabble up,9.4
-66,luther,9.3
-66,man at the garden,8.8
-66,hey now,9.0
-66,reincarnated,9.6
-66,tv off,9.4
-66,dodger blue,8.7
-66,peekaboo,8.5
-66,heart pt. 6,9.5
-66,gnx,8.7
-66,gloria,9.2
+68,Young Girls,9.5
+68,Locked out of Heaven,10.0
+68,Gorilla,9.2
+68,Treasure,9.8
+68,Moonshine,8.7
+68,When I was your man,10.0
+68,Natalie,8.5
+68,Show me,8.6
+68,Money Makes her smile,8.3
+68,If I knew,9.2
 69,Give Life Back to Music,9.5
 69,The Game of Love,8.8
 69,Giorgio by Moroder,9.0
@@ -979,31 +981,12 @@ album_id,name,score
 69,Fragments of Time,8.8
 69,Doin' it Right,8.8
 69,Contact,8.0
-68,Young Girls,9.5
-68,Locked out of Heaven,10.0
-68,Gorilla,9.2
-68,Treasure,9.8
-68,Moonshine,8.7
-68,When I was your man,10.0
-68,Natalie,8.5
-68,Show me,8.6
-68,Money Makes her smile,8.3
-68,If I knew,9.2
-13,Kickin' Incredibly Dope Shit (Intro),8.2
-13,Outside,7.8
-13,Get Em Up,8.1
-13,Nikes on My Feet,8.5
-13,Senior Skip Day,8.7
-13,The Spins,9.8
-13,Don't Mind If I Do,8.6
-13,Paper Route,7.8
-13,Good Evening,7.8
-13,Ride Around,7.3
-13,Knock Knock,9.0
-13,"Mad Flava, Heavy Flow (Interlude)",3.0
-13,Kool Aid & Frozen Pizza,8.7
-13,All I Want Is You,7.8
-13,Poppy,8.4
-13,Face In The Crowd,7.8
-13,Ayye,9.4
-13,Back In The Day,8.5
+70,Movin' Out (Anthony's Song),9.6
+70,The Stranger,8.7
+70,Just the Way You Are,9.4
+70,Scenes from an Italian Restaurant,9.7
+70,Vienna,10.0
+70,Only the Good Die Young,9.7
+70,She's Always a Women,10.0
+70,Get It Right the First Time,8.8
+70,Everybody Has a Dream,9.0
