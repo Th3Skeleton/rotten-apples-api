@@ -46,6 +46,14 @@ class StatsDB(Base):
     rank_in_genre = Column(Integer)
     album = relationship("AlbumDB", back_populates="stats")
 
+class SongStatsDB(Base):
+    __tablename__ = "song_stats"
+    
+    id = Column(Integer, primary_key=True, index=True)
+    song_id = Column(Integer, ForeignKey("songs.id"))
+    song_rank = Column(Integer)
+    album_rank = Column(Integer)
+
 class SongDB(Base):
     __tablename__ = "songs"
     
@@ -53,6 +61,7 @@ class SongDB(Base):
     name = Column(String, index=True)
     score = Column(Float)
     album_id = Column(Integer, ForeignKey("albums.id"))
+    song_rank = Column(Integer, ForeignKey("song_stats.song_rank"))
     album = relationship("AlbumDB", back_populates="songs")
 
 class AlbumDB(Base):
@@ -87,6 +96,7 @@ class Song(BaseModel):
     name: str
     score: float
     album_id: int
+    song_rank: int
     
     class Config:
         from_attributes = True
@@ -131,7 +141,7 @@ def get_db():
                         song = SongDB(
                             name=row['name'],
                             score=float(row['score']),
-                            album_id=int(row['album_id'])
+                            album_id=int(row['album_id'])    
                         )
                         db.merge(song)
                 db.commit()
@@ -235,6 +245,13 @@ def get_db():
                 # create map of song ranks
                 all_songs = db.query(SongDB).order_by(SongDB.score.desc()).all()
                 song_rank_map = {s.id: idx for idx, s in enumerate(all_songs, start=1)}
+                
+                # update song_rank in SongDB
+                for song in all_songs:
+                    song.song_rank = song_rank_map[song.id]
+                    db.merge(song)
+                db.commit()
+                
                 # overall album ranking by score
                 all_albums_list = db.query(AlbumDB).order_by(AlbumDB.score.desc()).all()
                 for idx, alb in enumerate(all_albums_list, start=1):
