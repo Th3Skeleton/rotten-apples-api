@@ -62,6 +62,7 @@ class SongDB(Base):
     score = Column(Float)
     album_id = Column(Integer, ForeignKey("albums.id"))
     song_rank = Column(Integer, ForeignKey("song_stats.song_rank"))
+    genre = Column(String)
     album = relationship("AlbumDB", back_populates="songs")
 
 class AlbumDB(Base):
@@ -97,6 +98,7 @@ class Song(BaseModel):
     score: float
     album_id: int
     song_rank: int
+    genre: Genre
     
     class Config:
         from_attributes = True
@@ -133,22 +135,7 @@ def get_db():
         existing_stats = db.query(StatsDB).first()
         
         if existing_songs is None or existing_albums is None:
-            # Load songs from CSV and add to database
-            try:
-                with open('songs.csv', 'r', encoding='utf-8') as f:
-                    reader = csv.DictReader(f)
-                    for row in reader:
-                        song = SongDB(
-                            name=row['name'],
-                            score=float(row['score']),
-                            album_id=int(row['album_id'])    
-                        )
-                        db.merge(song)
-                db.commit()
-            except FileNotFoundError:
-                pass
-
-            # Add albums to database
+            # Add albums to database first, so song genres can reference them
             albums = [
                 Album(id=1, title="Shoot For The Stars, Aim For The Moon", artist="Pop Smoke", image_url="/image/1.jpg", year=2020, score=81.79, personal=8.2, mean=8.16, leng="56:41", rec="Yes", review_date="10-09-2022", genre=Genre.rap, stats=[], songs=[]),
                 Album(id=2, title="GOD DID", artist="DJ Khaled", image_url="/image/2.jpg", year=2022, score=52.95, personal=4.0, mean=6.59, leng="57:11", rec="Only a few songs, not every", review_date="10-09-2022", genre=Genre.rap, stats=[], songs=[]),
@@ -239,7 +226,25 @@ def get_db():
                 )
                 db.merge(db_album)
             db.commit()
-            
+
+            # load songs from CSV, assigning genre from album
+            try:
+                with open('songs.csv','r',encoding='utf-8') as f:
+                    reader = csv.DictReader(f)
+                    for row in reader:
+                        alb = db.query(AlbumDB).filter(AlbumDB.id==int(row['album_id'])).first()
+                        song_genre = alb.genre if alb else ""
+                        song = SongDB(
+                            name=row['name'],
+                            score=float(row['score']),
+                            album_id=int(row['album_id']),
+                            genre=song_genre
+                        )
+                        db.merge(song)
+                db.commit()
+            except FileNotFoundError:
+                pass
+
             # compute and store stats if table empty
             if existing_stats is None:
                 # create map of song ranks
